@@ -18,7 +18,7 @@ class ToDoItem{
     }
 }
 
-//let myItem = new ToDoItem("Finish class");
+let myItem = new ToDoItem("Finish class");
 
 window.onload = function(){
     let addBtn = <HTMLElement> //this needs to be cast
@@ -74,7 +74,7 @@ function getItem():ToDoItem{
     let deadline = (<HTMLInputElement>
         document.getElementById("deadline")).value;
     item.deadline = new Date(deadline);
-    item.isCompleted = false;
+    item.isComplete = false;
 
     return item;
 }

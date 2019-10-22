@@ -1,4 +1,3 @@
-"use strict";
 /**
  * Represents a single task on a todo list
  */
@@ -10,7 +9,7 @@ var ToDoItem = /** @class */ (function () {
     }
     return ToDoItem;
 }());
-//let myItem = new ToDoItem("Finish class");
+var myItem = new ToDoItem("Finish class");
 window.onload = function () {
     var addBtn = document.querySelector("form > input[type=button]");
     addBtn.onclick = main;
@@ -49,6 +48,6 @@ function getItem() {
     var item = new ToDoItem(title);
     var deadline = document.getElementById("deadline").value;
     item.deadline = new Date(deadline);
-    item.isCompleted = false;
+    item.isComplete = false;
     return item;
 }
