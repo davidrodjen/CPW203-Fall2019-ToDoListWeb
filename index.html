@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Free online todo list tracking tasks">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <title>Free Online ToDo List</title>
 </head>
 
@@ -32,6 +33,12 @@
     </div>
 
     <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script>
+        var picker = new Pikaday({ 
+            field: document.getElementById('deadline') 
+        }); //Binding the calendar to specific field
+    </script>
     
 </body>
 </html>
