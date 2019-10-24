@@ -12,7 +12,7 @@ body {
 
 div#todo{
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 20px;
     border: 1px solid silver;
     background-color: black;
@@ -22,7 +22,7 @@ div#todo{
 
 div#complete{
     display: inline-block;
-    margin-right: 20%;
+    margin-right: 15%;
     margin-top: 20px;
     border: 1px solid silver;
     background-color: black;
@@ -38,13 +38,17 @@ div#complete{
 
     div#todo{
         float: none;
-        margin-left: 0;
+        margin-right: 0;
         width: 100%;
+        display: inline-block;
+        margin-top: 5%;
     }
 
     div#completed{
         float: none;
-        margin-right: 0;
+        margin-left: 0;
         width: 100%;
+        display: inline-block;
+        margin-top: 5%;
     }
 }
