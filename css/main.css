@@ -1,11 +1,9 @@
 body {
     margin-top: 15%;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
     background-image: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
     color: silver;
-    
-    
     
 }
 
@@ -13,7 +11,7 @@ body {
 div#todo{
     display: inline-block;
     margin-left: 15%;
-    margin-top: 20px;
+    margin-top: 5%;
     border: 1px solid silver;
     background-color: black;
     border-radius: .2em;
@@ -22,8 +20,8 @@ div#todo{
 
 div#complete{
     display: inline-block;
-    margin-right: 15%;
-    margin-top: 20px;
+    margin-right: 0%;
+    margin-top: 5%;
     border: 1px solid silver;
     background-color: black;
     border-radius: .2em;
@@ -39,6 +37,7 @@ div#complete{
     div#todo{
         float: none;
         margin-right: 0;
+        margin-left: 0px;
         width: 100%;
         display: inline-block;
         margin-top: 5%;
@@ -47,6 +46,7 @@ div#complete{
     div#completed{
         float: none;
         margin-left: 0;
+        margin-right: 0px;
         width: 100%;
         display: inline-block;
         margin-top: 5%;
