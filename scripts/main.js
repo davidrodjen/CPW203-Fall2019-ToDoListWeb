@@ -32,7 +32,7 @@ function main() {
 function markAsComplete() {
     var currItem = this;
     //alert("You clicked this div");
-    var completedItems = document.getElementById("completed");
+    var completedItems = document.getElementById("complete");
     completedItems.appendChild(currItem);
 }
 /**

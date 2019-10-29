@@ -52,7 +52,7 @@ function markAsComplete(){
     //alert("You clicked this div");
 
     let completedItems =
-        document.getElementById("completed");
+        document.getElementById("complete");
     completedItems.appendChild(currItem);
 }
 
